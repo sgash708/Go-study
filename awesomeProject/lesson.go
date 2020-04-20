@@ -21,10 +21,10 @@ func main() {
 	// ドット繋ぎにせず、スラッシュで繋ぐ
 	// fmt.Println(user.Current())
 
-	// 変数型の勉強
-	// variable.goの実行
+	// 変数について
 	// hoge()
 	// hugu()
+
 	// aInt()
 	// aString()
 	// aBool()
@@ -32,5 +32,8 @@ func main() {
 	// aArr()
 	// aSlice()
 	// aSliceMakeCap()
-	aMap()
+	// aMap()
+	// aByte()
+	aFunction()
+
 }
