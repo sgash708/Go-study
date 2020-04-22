@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"time"
-	"../statement"
 )
 
 /*
@@ -39,5 +38,5 @@ func main() {
 	// aClo()
 	// aValFunc()
 	// aExer()
-	main2()
+	aIf()
 }
