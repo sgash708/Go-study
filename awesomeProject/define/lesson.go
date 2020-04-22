@@ -34,6 +34,8 @@ func main() {
 	// aSliceMakeCap()
 	// aMap()
 	// aByte()
-	aFunction()
-
+	// aFunction()
+	// aClo()
+	// aValFunc()
+	// aExer()
 }
