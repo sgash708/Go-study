@@ -11,7 +11,6 @@ import (
 	複数行：「\/**\/」
 	単数行：「//」
 */
-
 func main() {
 	// fmtと記載すると勝手にインポートされる
 	fmt.Println("Hello world!!", "TEST", "TEST 2", time.Now())
@@ -38,5 +37,6 @@ func main() {
 	// aClo()
 	// aValFunc()
 	// aExer()
-	aIf()
+	// aIf()
+	aFor()
 }
