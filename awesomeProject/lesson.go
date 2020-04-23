@@ -40,5 +40,6 @@ func main() {
 	// aIf()
 	// aFor()
 	// aRange()
-	aSw()
+	// aSw()
+	aDefer()
 }
