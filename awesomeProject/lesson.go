@@ -38,5 +38,6 @@ func main() {
 	// aValFunc()
 	// aExer()
 	// aIf()
-	aFor()
+	// aFor()
+	aRange()
 }
