@@ -41,5 +41,6 @@ func main() {
 	// aFor()
 	// aRange()
 	// aSw()
-	aDefer()
+	// aDefer()
+	aLog()
 }
