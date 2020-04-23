@@ -39,5 +39,6 @@ func main() {
 	// aExer()
 	// aIf()
 	// aFor()
-	aRange()
+	// aRange()
+	aSw()
 }
