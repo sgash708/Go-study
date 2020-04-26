@@ -49,6 +49,7 @@ func main() {
 	// aExer2()
 
 	// セクション５
-	aPoint()
-	
+	// aPoint()
+	// aNewMake()
+	aStruct()
 }
