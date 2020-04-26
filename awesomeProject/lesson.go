@@ -42,5 +42,8 @@ func main() {
 	// aRange()
 	// aSw()
 	// aDefer()
-	aLog()
+	// aLog()
+	// aTry()
+	// aPanicRecover()
+
 }
