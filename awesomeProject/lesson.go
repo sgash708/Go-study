@@ -51,5 +51,5 @@ func main() {
 	// セクション５
 	// aPoint()
 	// aNewMake()
-	aStruct()
+	// aStruct()
 }
