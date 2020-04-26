@@ -45,5 +45,6 @@ func main() {
 	// aLog()
 	// aTry()
 	// aPanicRecover()
+	aExer2()
 
 }
