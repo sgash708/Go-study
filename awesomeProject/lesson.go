@@ -52,4 +52,5 @@ func main() {
 	// aPoint()
 	// aNewMake()
 	// aStruct()
+	aExer3()
 }
