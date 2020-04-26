@@ -20,10 +20,9 @@ func main() {
 	// ドット繋ぎにせず、スラッシュで繋ぐ
 	// fmt.Println(user.Current())
 
-	// 変数について
+	// ★セクション３
 	// hoge()
 	// hugu()
-
 	// aInt()
 	// aString()
 	// aBool()
@@ -37,6 +36,8 @@ func main() {
 	// aClo()
 	// aValFunc()
 	// aExer()
+
+	// ★セクション４
 	// aIf()
 	// aFor()
 	// aRange()
@@ -45,6 +46,9 @@ func main() {
 	// aLog()
 	// aTry()
 	// aPanicRecover()
-	aExer2()
+	// aExer2()
 
+	// セクション５
+	aPoint()
+	
 }
