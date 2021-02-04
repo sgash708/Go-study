@@ -7,22 +7,19 @@ import "fmt"
 const big = 9223372036854775807 + 1
 
 /*
-Pi is 円周率
-*/
-const Pi = 3.14
-
-/*
+Pi 		 is 円周率
 Username is ユーザ名
 Password is パスワード
 */
 const (
+	Pi       = 3.14
 	Username = "test_user"
 	Password = "test_pass"
 )
 
-func hugu() {
+func learningConst() {
 	fmt.Println(Pi, Username, Password, big-1)
-	// 値の書き換えは不可能
+	// 定数の値書き換えは不可能
 	// Pi = 3
 
 	// 「big」の型を確認する

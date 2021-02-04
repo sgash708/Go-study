@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os/user"
 	"time"
 )
 
@@ -10,25 +11,29 @@ import (
 	基本文法はセミコロンなし
 	複数行：「\/**\/」
 	単数行：「//」
+	func init() {
+		fmt.Println("init!!")
+	}
 */
+
 func main() {
 	// fmtと記載すると勝手にインポートされる
-	fmt.Println("Hello world!!", "TEST", "TEST 2", time.Now())
+	fmt.Println("Hello world!!", time.Now().Format("2006-01-02"))
 
 	// userはインポートされない
 	// 理由は、「os/user」と階層が違うから
 	// ドット繋ぎにせず、スラッシュで繋ぐ
-	// fmt.Println(user.Current())
+	fmt.Println(user.Current())
 
 	// ★セクション３
-	// hoge()
-	// hugu()
-	// aInt()
-	// aString()
-	// aBool()
-	// acast()
-	// aArr()
-	// aSlice()
+	learningVal()
+	learningConst()
+	learningNum()
+	learningString()
+	learningBool()
+	learningCast()
+	learningArr()
+	learningSlice()
 	// aSliceMakeCap()
 	// aMap()
 	// aByte()
@@ -52,5 +57,8 @@ func main() {
 	// aPoint()
 	// aNewMake()
 	// aStruct()
-	aExer3()
+	// aExer3()
+
+	// セクション６
+
 }
